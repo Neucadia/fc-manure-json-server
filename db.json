@@ -1,0 +1,164 @@
+{
+  "methodType": [
+    {
+      "id": 1,
+      "name": "Broadcast"
+    },
+    {
+      "id": 2,
+      "name": "Injection"
+    },
+    {
+      "id": 3,
+      "name": "Dragline"
+    }
+  ],
+  "weatherType": [
+    {
+      "id": 1,
+      "name": "Sunny"
+    },
+    {
+      "id": 2,
+      "name": "Partly cloudy"
+    },
+    {
+      "id": 3,
+      "name": "Cloudy"
+    },
+    {
+      "id": 4,
+      "name": "Rain"
+    }
+  ],
+  "moistureType": [
+    {
+      "id": 1,
+      "name": "Dry"
+    },
+    {
+      "id": 2,
+      "name": "Moist"
+    },
+    {
+      "id": 3,
+      "name": "Saturated"
+    }
+  ],
+  "soilType": [
+    {
+      "id": 1,
+      "name": "Residue"
+    },
+    {
+      "id": 2,
+      "name": "Growing crop"
+    },
+    {
+      "id": 3,
+      "name": "No-till"
+    },
+    {
+      "id": 4,
+      "name": "Frozen"
+    },
+    {
+      "id": 5,
+      "name": "Snow-covered"
+    }
+  ],
+  "manureType": [
+    {
+      "id": 1,
+      "name": "Liquid"
+    },
+    {
+      "id": 2,
+      "name": "Solid"
+    },
+    {
+      "id": 3,
+      "name": "Sand"
+    },
+    {
+      "id": 4,
+      "name": "Water"
+    }
+  ],
+  "metricType": [
+    {
+      "id": 1,
+      "name": "Gallons"
+    },
+    {
+      "id": 2,
+      "name": "Tons"
+    }
+  ],
+  "incorporationType": [
+    {
+      "id": 1,
+      "name": "Immediate"
+    },
+    {
+      "id": 2,
+      "name": "0-1 day"
+    },
+    {
+      "id": 3,
+      "name": "2-3 days"
+    },
+    {
+      "id": 4,
+      "name": "4-7 days"
+    },
+    {
+      "id": 5,
+      "name": "> 7 days"
+    }
+  ],
+  "fields": [
+    {
+      "id": 1,
+      "name": "Field 1",
+      "acres": 20,
+      "tiled": true
+    },
+    {
+      "id": 2,
+      "name": "Field 2",
+      "acres": 39,
+      "tiled": false
+    }
+  ],
+  "applications": [
+    {
+      "name": "Field 1",
+      "date": "6/10/2021",
+      "acres": "20",
+      "rate": "9000",
+      "volume": "180000",
+      "metric": "Gallons",
+      "tile": false,
+      "tileOptions": "",
+      "manure": "Liquid",
+      "spreader": "1",
+      "method": "Broadcast",
+      "capacity": "10000",
+      "equipment": true,
+      "source": "North Pit",
+      "flow": "No",
+      "flowOptions": "",
+      "cracking": "No",
+      "soil": [],
+      "conservation": true,
+      "moisture": "Dry",
+      "mex": "No",
+      "weather": "Sunny",
+      "tileRain": false,
+      "tileRainOptions": "",
+      "incorporation": "Immediate",
+      "id": 3
+    }
+  ]
+}
